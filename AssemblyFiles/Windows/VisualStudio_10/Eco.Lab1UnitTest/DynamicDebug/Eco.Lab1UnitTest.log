@@ -1,0 +1,15 @@
+﻿Построение начато 23.11.2025 3:17:33.
+     1>Проект "C:\Ecosssssss\Lab1\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Обращение к "Eco.Lab1UnitTest\DynamicDebug\Eco.Lab1UnitTest.unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Ecosssssss\Lab1\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest\DynamicDebug\Eco.Lab1UnitTest.exe) не соответствует значению свойства выходного файла (C:\Ecosssssss\Lab1\Eco.Lab1\BuildFiles\Windows\x86\DynamicDebug\Eco.Lab1UnitTest.exe) для Linker. Это может привести к неправильному построению проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\BuildFiles\Windows\x86\DynamicDebug\Eco.Lab1UnitTest.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\BuildFiles\Windows\x86\DynamicDebug\ /LIBPATH:C:\Ecosuckers\Ecocomp\Eco.InterfaceBus1\BuildFiles\Windows\x86\StaticRelease\ /LIBPATH:C:\Ecosuckers\Ecocomp\Eco.System1\BuildFiles\Windows\x86\StaticRelease\ /LIBPATH:C:\Ecosuckers\Ecocomp\Eco.MemoryManager1\BuildFiles\Windows\x86\StaticRelease\ /LIBPATH:C:\Ecosuckers\Ecocomp\Eco.FileSystemManagement1\BuildFiles\Windows\x86\StaticRelease\ 00000000000000000000000042757331.lib 0000000000000000000000004D656D31.lib 00000000000000000000000046534D31.lib 00000000000000000000000053595332.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Eco.Lab1UnitTest\DynamicDebug\Eco.Lab1UnitTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Ecosssssss\Lab1\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest\DynamicDebug\Eco.Lab1UnitTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Ecosssssss\Lab1\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest\DynamicDebug\Eco.Lab1UnitTest.lib" /MACHINE:X86 Eco.Lab1UnitTest\DynamicDebug\EcoLab1.obj
+     1>LINK : fatal error LNK1181: не удается открыть входной файл "00000000000000000000000042757331.lib"
+     1>Построение проекта "C:\Ecosssssss\Lab1\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest.vcxproj" завершено (целевые объекты build) с ошибкой.
+
+СБОЙ построения.
+
+Затраченное время: 00:00:00.09

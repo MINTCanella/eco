@@ -1,0 +1,18 @@
+﻿Построение начато 23.11.2025 3:17:30.
+     1>Проект "C:\Ecosssssss\Lab1\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Eco.Lab1\DynamicDebug\Eco.Lab1.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Ecosssssss\Lab1\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1\DynamicDebug\1F5DF16EE1BF43B999A434ED38FE8F3A.dll) не соответствует значению свойства выходного файла (C:\Ecosssssss\Lab1\Eco.Lab1\BuildFiles\Windows\x86\DynamicDebug\1F5DF16EE1BF43B999A434ED38FE8F3A.dll) для Linker. Это может привести к неправильному построению проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+       Link:
+         Для всех выходных данных обновления не требуется.
+         Eco.Lab1.vcxproj -> C:\Ecosssssss\Lab1\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1\DynamicDebug\1F5DF16EE1BF43B999A434ED38FE8F3A.dll
+       FinalizeBuildStatus:
+         Файл "Eco.Lab1\DynamicDebug\Eco.Lab1.unsuccessfulbuild" удаляется.
+         Обращение к "Eco.Lab1\DynamicDebug\Eco.Lab1.lastbuildstate".
+     1>Построение проекта "C:\Ecosssssss\Lab1\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:00.02
