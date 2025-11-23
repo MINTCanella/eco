@@ -45,11 +45,18 @@ typedef struct IEcoLab1VTbl {
     void (ECOCALLMETHOD *RadixSortFloat)(/* in */ IEcoLab1Ptr_t me, /* in */ float* array, /* in */ size_t size);
     void (ECOCALLMETHOD *RadixSortDouble)(/* in */ IEcoLab1Ptr_t me, /* in */ double* array, /* in */ size_t size);
 
+    /* IEcoCalculatorX - Операции калькулятора */
+    int32_t (ECOCALLMETHOD *Addition)(/* in */ IEcoLab1Ptr_t me, /* in */ int16_t a, /* in */ int16_t b);
+    int16_t (ECOCALLMETHOD *Subtraction)(/* in */ IEcoLab1Ptr_t me, /* in */ int16_t a, /* in */ int16_t b);
+
+    /* IEcoCalculatorY - Операции калькулятора */
+    int32_t (ECOCALLMETHOD *Multiplication)(/* in */ IEcoLab1Ptr_t me, /* in */ int16_t a, /* in */ int16_t b);
+    int16_t (ECOCALLMETHOD *Division)(/* in */ IEcoLab1Ptr_t me, /* in */ int16_t a, /* in */ int16_t b);
+
 } IEcoLab1VTbl, *IEcoLab1VTblPtr;
 
 interface IEcoLab1 {
     struct IEcoLab1VTbl *pVTbl;
 } IEcoLab1;
-
 
 #endif /* __I_ECOLAB1_H__ */

@@ -88,7 +88,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\..\..\HeaderFiles;..\..\..\SharedFiles;$(ECO_FRAMEWORK)\Eco.Core1\SharedFiles;$(ECO_FRAMEWORK)\Eco.InterfaceBus1\SharedFiles;$(ECO_FRAMEWORK)\Eco.System1\SharedFiles;$(ECO_FRAMEWORK)\Eco.MemoryManager1\SharedFiles;$(ECO_FRAMEWORK)\Eco.FileSystemManagement1\SharedFiles;$(ECO_FRAMEWORK)\Eco.List1\SharedFiles;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\HeaderFiles;..\..\..\SharedFiles;$(ECO_FRAMEWORK)\Eco.Core1\SharedFiles;$(ECO_FRAMEWORK)\Eco.InterfaceBus1\SharedFiles;$(ECO_FRAMEWORK)\Eco.System1\SharedFiles;$(ECO_FRAMEWORK)\Eco.MemoryManager1\SharedFiles;$(ECO_FRAMEWORK)\Eco.FileSystemManagement1\SharedFiles;$(ECO_FRAMEWORK)\Eco.List1\SharedFiles;..\CalculatorHeaders;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <CallingConvention>StdCall</CallingConvention>
       <CompileAs>CompileAsC</CompileAs>
@@ -167,6 +167,13 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\CalculatorHeaders\IdEcoCalculatorA.h" />
+    <ClInclude Include="..\..\..\CalculatorHeaders\IdEcoCalculatorB.h" />
+    <ClInclude Include="..\..\..\CalculatorHeaders\IdEcoCalculatorC.h" />
+    <ClInclude Include="..\..\..\CalculatorHeaders\IdEcoCalculatorD.h" />
+    <ClInclude Include="..\..\..\CalculatorHeaders\IdEcoCalculatorE.h" />
+    <ClInclude Include="..\..\..\CalculatorHeaders\IEcoCalculatorX.h" />
+    <ClInclude Include="..\..\..\CalculatorHeaders\IEcoCalculatorY.h" />
     <ClInclude Include="..\..\..\HeaderFiles\CEcoLab1.h" />
     <ClInclude Include="..\..\..\HeaderFiles\CEcoLab1Factory.h" />
     <ClInclude Include="..\..\..\SharedFiles\IdEcoLab1.h" />

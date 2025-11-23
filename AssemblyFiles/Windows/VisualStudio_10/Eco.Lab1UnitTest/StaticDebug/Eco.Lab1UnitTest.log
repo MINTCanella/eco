@@ -1,0 +1,17 @@
+﻿Построение начато 30.10.2025 20:09:30.
+     1>Проект "C:\Ecosuckers\Lab2\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Eco.Lab1UnitTest\StaticDebug\Eco.Lab1UnitTest.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\SharedFiles /I..\..\..\HeaderFiles /IC:\Ecosuckers\Ecocomp\Eco.Core1\SharedFiles /IC:\Ecosuckers\Ecocomp\Eco.InterfaceBus1\SharedFiles /IC:\Ecosuckers\Ecocomp\Eco.System1\SharedFiles /IC:\Ecosuckers\Ecocomp\Eco.MemoryManager1\SharedFiles /IC:\Ecosuckers\Ecocomp\Eco.FileSystemManagement1\SharedFiles /IC:\Ecosuckers\Ecocomp\Eco.List1\SharedFiles /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D UGUID_UTILITY /D ECO_X86_32 /D ECO_WINDOWS /D ECO_WIN32 /D ECO_LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Eco.Lab1UnitTest\StaticDebug\\" /Fd"Eco.Lab1UnitTest\StaticDebug\vc100.pdb" /Gz /TC /analyze- /errorReport:prompt ..\..\..\UnitTestFiles\SourceFiles\EcoLab1.c
+         EcoLab1.c
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\objbase.h(248): warning C4005: interface: изменение макроопределения
+                 c:\ecosuckers\ecocomp\eco.core1\sharedfiles\iecobase1.h(29): см. предыдущее определение "interface"
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Ecosuckers\Lab2\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest\StaticDebug\Eco.Lab1UnitTest.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\BuildFiles\Windows\x86\StaticDebug\ /LIBPATH:C:\Ecosuckers\Ecocomp\Eco.InterfaceBus1\BuildFiles\Windows\x86\StaticRelease\ /LIBPATH:C:\Ecosuckers\Ecocomp\Eco.System1\BuildFiles\Windows\x86\StaticRelease\ /LIBPATH:C:\Ecosuckers\Ecocomp\Eco.MemoryManager1\BuildFiles\Windows\x86\StaticRelease\ /LIBPATH:C:\Ecosuckers\Ecocomp\Eco.FileSystemManagement1\BuildFiles\Windows\x86\StaticRelease\ 1F5DF16EE1BF43B999A434ED38FE8F3A.lib 00000000000000000000000042757331.lib 0000000000000000000000004D656D31.lib 00000000000000000000000046534D31.lib 00000000000000000000000053595332.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Eco.Lab1UnitTest\StaticDebug\Eco.Lab1UnitTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Ecosuckers\Lab2\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest\StaticDebug\Eco.Lab1UnitTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Ecosuckers\Lab2\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest\StaticDebug\Eco.Lab1UnitTest.lib" /MACHINE:X86 Eco.Lab1UnitTest\StaticDebug\EcoLab1.obj
+     1>LINK : fatal error LNK1181: не удается открыть входной файл "1F5DF16EE1BF43B999A434ED38FE8F3A.lib"
+     1>Построение проекта "C:\Ecosuckers\Lab2\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest.vcxproj" завершено (целевые объекты build) с ошибкой.
+
+СБОЙ построения.
+
+Затраченное время: 00:00:00.51
