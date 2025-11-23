@@ -1,4 +1,4 @@
-﻿/*
+/*
  * <кодировка символов>
  *   Cyrillic (UTF-8 with signature) - Codepage 65001
  * </кодировка символов>
@@ -40,7 +40,7 @@ typedef struct IEcoLab1VTbl {
     uint32_t (ECOCALLMETHOD *Release)(/* in */ IEcoLab1Ptr_t me);
 
     /* IEcoLab1 - Поразрядная сортировка */
-    void (ECOCALLMETHOD *RadixSortInt)(/* in */ IEcoLab1Ptr_t me, /* in */ int* array, /* in */ size_t size);
+    void (ECOCALLMETHOD *RadixSortInt)(/* in */ IEcoLab1Ptr_t me, /* in */ int32_t* array, /* in */ size_t size);
     void (ECOCALLMETHOD *RadixSortLong)(/* in */ IEcoLab1Ptr_t me, /* in */ int64_t* array, /* in */ size_t size);
     void (ECOCALLMETHOD *RadixSortFloat)(/* in */ IEcoLab1Ptr_t me, /* in */ float* array, /* in */ size_t size);
     void (ECOCALLMETHOD *RadixSortDouble)(/* in */ IEcoLab1Ptr_t me, /* in */ double* array, /* in */ size_t size);

@@ -21,16 +21,23 @@
 #define __C_ECOLAB1_H__
 
 #include "IEcoLab1.h"
+#include "IEcoLab1Events.h"
 #include "IEcoSystem1.h"
 #include "IdEcoMemoryManager1.h"
 #include "IEcoInterfaceBus1.h"
 #include "IEcoInterfaceBus1MemExt.h"
 #include "IEcoCalculatorX.h"
 #include "IEcoCalculatorY.h"
+#include "IEcoEnumConnections.h"
+#include "IEcoConnectionPointContainer.h"
+#include "CEcoLab1ConnectionPoint.h"
 
 typedef struct CEcoLab1 {
     /* Таблица функций интерфейса IEcoLab1 */
     IEcoLab1VTbl* m_pVTblIEcoLab1;
+
+    /* Таблица функций интерфейса IEcoConnectionPointContainer */
+    IEcoConnectionPointContainerVTbl* m_pVTblICPC;
 
     /* Счетчик ссылок */
     uint32_t m_cRef;
@@ -47,6 +54,9 @@ typedef struct CEcoLab1 {
     /* Внешний объект для агрегирования */
     IEcoUnknown* m_pIUnkOuter;
 
+    /* Точка подключения для событий */
+    CEcoLab1ConnectionPoint* m_pISinkCP;
+
     /* Данные экземпляра */
     char_t* m_Name;
 
@@ -57,11 +67,19 @@ typedef struct CEcoLab1 {
     /* Флаг использования агрегирования */
     uint8_t m_bUseAggregation;
 
-	 /* Агрегированный компонент B */
+    /* Агрегированный компонент B */
     IEcoUnknown* m_pInnerUnknown;
 
     /* Неделегирующий Unknown */
     IEcoUnknownVTbl* m_pVTblINondelegatingUnk;
+
+    /* Добавили функции Fire для всех событий радиксной сортировки */
+    /* Вспомогательные функции для уведомлений */
+    int16_t (*Fire_OnSortStart)(/* in */ struct CEcoLab1* me, /* in */ size_t arraySize, /* in */ int32_t maxValue);
+    int16_t (*Fire_OnProcessDigit)(/* in */ struct CEcoLab1* me, /* in */ int32_t digitPosition, /* in */ int32_t divisor);
+    int16_t (*Fire_OnElementMove)(/* in */ struct CEcoLab1* me, /* in */ int32_t value, /* in */ size_t fromIndex, /* in */ size_t toIndex);
+    int16_t (*Fire_OnDigitComplete)(/* in */ struct CEcoLab1* me, /* in */ int32_t divisor);
+    int16_t (*Fire_OnSortComplete)(/* in */ struct CEcoLab1* me);
 
 } CEcoLab1, *CEcoLab1Ptr;
 
